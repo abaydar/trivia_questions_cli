@@ -1,0 +1,8 @@
+#!/user/bin.env ruby
+
+require_relative '../environment'
+
+API.get_data
+
+CLI.new.run 
+
