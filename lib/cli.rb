@@ -78,7 +78,7 @@ class CLI
                 puts " "
                 puts "Sorry, there are no more questions in that category.".white.on_magenta
                 puts "                                                    ".white.on_magenta
-                puts "Choose another category number:                     ".yellow.on_magenta.bold
+                puts "Choose a different category number:                 ".yellow.on_magenta.bold
                 puts " "
                 list_categories
             elsif input == "yes" && @qs.length > 0
