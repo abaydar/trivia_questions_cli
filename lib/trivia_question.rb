@@ -85,10 +85,10 @@ class TriviaQuestion
                 puts "#{"#{i + 1}".bold.light_magenta}. #{answer}"
          end
          q_a    
- end
+    end
 
-    def self.check_answer(question, input) 
-        true if question[:q].correct_answer == input
+    def self.check_answer(q_a, input) 
+        true if q_a[:q].correct_answer == input
     end
 
 

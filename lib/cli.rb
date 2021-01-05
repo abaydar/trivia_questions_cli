@@ -43,19 +43,19 @@ class CLI
     end
     def create_question
         qs = @qs.pop
-        @question = TriviaQuestion.random_question(qs)
+        @q_a = TriviaQuestion.random_question(qs)
         check_question
     end 
     def check_question
         input = gets.strip.to_i - 1
-        answer = TriviaQuestion.check_answer(@question, @question[:a][input])
+        answer = TriviaQuestion.check_answer(@q_a, @q_a[:a][input])
         if answer && input.between?(0, 3)
             puts "You got it!"
             @score += 1
             puts "Your score is: #{"#{@score}".bold}".cyan
             another_question?
         elsif input.between?(0, 3)
-            puts "#{"Not quite".light_red}, the correct answer was #{@question[:q].correct_answer.bold.green}"
+            puts "#{"Not quite".light_red}, the correct answer was #{@q_a[:q].correct_answer.bold.green}"
             @score -= 1 if @score >= 1
             puts "Your score is: #{"#{@score}".bold}".cyan
             another_question?
