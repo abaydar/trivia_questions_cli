@@ -22,7 +22,6 @@ class TriviaQuestion
     end
 
     def question=(question)
-        
         @question = question.split(" ").map do |word|
             if word.include?("&#039;") 
                 word.gsub("&#039;", "'")
