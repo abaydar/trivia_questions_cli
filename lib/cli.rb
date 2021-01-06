@@ -36,8 +36,7 @@ class CLI
             puts "Hmm.. that's not a valid input.  Try again"
             list_categories
         end
-        # @q returns the question + category
-        # need to pass this to get category questions for array of questions
+        
         @qs = TriviaQuestion.questions_in_category(@q.category)
         create_question
     end
