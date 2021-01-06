@@ -10,16 +10,16 @@ After your first question, you will recieve a prompt asking whether you would li
 
 ### Install instructions
 
-In your terminal, clone the project by typing `git clone <git@github.com:abaydar/trivia_questions_cli.git>`
+* In your terminal, clone the project by typing `git clone <git@github.com:abaydar/trivia_questions_cli.git>`
 
-Once you are in the correct directory, run `bundle install` to load the gems
+* Once you are in the correct directory, run `bundle install` to load the gems
 
-To run the app, type `ruby bin/start_trivia` in your terminal
+* To run the app, type `ruby bin/start_trivia` in your terminal
 
 ### A Contributor's Guide
 
-For pull requests, please visit: (https://github.com/abaydar/trivia_questions_cli/pulls)
+* For pull requests, please visit: (https://github.com/abaydar/trivia_questions_cli/pulls)
 
-For bug reports, please visit: (https://github.com/abaydar/trivia_questions_cli/issues)
+* For bug reports, please visit: (https://github.com/abaydar/trivia_questions_cli/issues)
 
 ### License 
