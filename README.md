@@ -12,6 +12,7 @@ After your first question, you will recieve a prompt asking whether you would li
 
 In your terminal, clone the project by typing `git clone <git@github.com:abaydar/trivia_questions_cli.git>`
 Once you are in the correct directory, run `bundle install` to load the gems
+To run the app, type `ruby bin/start_trivia` in your terminal
 
 ### A Contributor's Guide
 
