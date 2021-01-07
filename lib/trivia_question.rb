@@ -31,6 +31,8 @@ class TriviaQuestion
                 word.gsub("&amp;", "&")
             elsif word.include?("&deg;")
                 word.gsub("&deg;", " degrees ")
+            elsif word.include?("&ndash;")
+                word.gsub("&ndash;", "-")
             else
                 word
             end
@@ -47,6 +49,8 @@ class TriviaQuestion
                 word.gsub("&amp;", "&")
             elsif word.include?("&deg;")
                 word.gsub("&deg;", " degrees ")
+            elsif word.include?("&ndash;")
+                word.gsub("&ndash;", "-")
             else
                 word
             end
@@ -63,6 +67,8 @@ class TriviaQuestion
                 word.gsub("&amp;", "&")
             elsif word.include?("&deg;")
                 word.gsub("&deg;", " degrees ")
+            elsif word.include?("&ndash;")
+                word.gsub("&ndash;", "-")
             else
                 word
             end
